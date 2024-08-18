@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: gray 1px solid;
+}
+nav{
+    margin: 5px auto;
+    background-color: #ffffff;
+    padding: 0 25px;
+
+}
+.hotel{
+    display: inline-block;
+    padding: 20px 25px;
+    color: #7a1755;
+    font-weight: 600;
+}
+.exp{
+    display: inline-block;
+    padding: 20px 25px;
+    color: #7a1755;
+    font-family: "Kalam", cursive;
+    font-weight: 600;
+}
+.exp1{
+    display: inline-block;
+    color: #7a1755;
+    font-family: "Kalam", cursive;
+    font-weight: 600;
+    font-size: 25px;
+}
+.exp2{
+    display: inline-block;
+    color: #275154;
+    font-family: "Kalam", cursive;
+    font-weight: 600;
+    font-size: 25px;
+}
+.nav-left{
+    display: inline-block;
+    width: 40%;
+    /* background-color: red; */
+}
+.nav-right{
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+    /* background-color: greenyellow; */
+}
+
+
+
+.main-sec{
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    display: inline-block;
+}
+.main-h1{
+    margin: 18px 0;  
+    font-size: 15px;;
+    color: #7a1755;
+}
+.main-h2{
+    margin: 0;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;;
+    color: #7a1755;   
+    width: 400px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.south{
+    font-weight:700;
+}
+.main-sec-left{
+    height: 650px;
+    width: 40%;
+    padding-left: 100px;
+    display: inline-block;
+    vertical-align: top;
+    /* background-color: blueviolet; */
+    box-sizing: border-box;
+    padding-top: 125px;
+}
+.main-sec-right{
+    height: 600px;
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d4908076371683.5c67f01c4ef0a.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.expdrop{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    width: 600px;
+    height: 50px;
+    padding: 15px;
+    /* border: none; */
+    position: relative;
+    z-index: 1;
+}
+.exp-btn{
+    margin: 15px 0;
+    padding: 10px 25px;
+    border: none;
+    font-size: 10px;
+    color: white;
+    background-color: #7a1755;
+}
+
+
+section{
+    margin: 0 100px;
+}
+.sec-h2{
+    font-size: 30px;
+    color: #7a1755;
+    margin: 0;
+}
+.sec-h4{
+    color: #984b7b;
+    margin: 5px 0;
+}
+.des-card-container{
+    margin-top: 50px;
+}
+.des-card{
+    width: 31%;
+    /* height: 500px; */
+    /* background-color: aqua; */
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.card-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+}
+.des-card-h1{
+    display: block;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 10px 0;
+}
+.des-card-h2{
+    font-weight: 600;
+}
+.des-btn{
+    margin:0;
+    padding: 10px 20px;
+    border: none;
+    /* font-size: 10px; */
+    /* font-weight: 500; */
+    color: white;
+    background-color: #7a1755;
+}
+
+footer{
+    padding: 25px;
+    background-color: #f7f7f7;
+}
+.contact-form{
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px;
+    /* background-color: #275154; */
+}
+label{
+    display: block;
+    margin-top: 20px;
+}
+.contact-drop{
+    width: 100%;
+    /* padding: 25px; */
+    height: 50px;
+    margin: 5px 0;
+}
+.contact-box{
+    width: 100%;
+    /* padding: 25px; */
+    height: 50px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+.sub-btn{
+    margin: 15px 0;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    background-color: #7a1755;
+}
